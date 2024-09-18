@@ -1,0 +1,16 @@
+{
+  "name": "lesson-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server-json": "json-server --watch -p 3001 data.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "json-server": "^1.0.0-beta.2"
+  },
+  "description": ""
+}
