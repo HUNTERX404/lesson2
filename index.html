@@ -9,35 +9,140 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
-  <body class="bg-light">
-    <main class="container">
-      <div class="d-flex justify-content-end mb-4">
-        <button class="btn btn-info">add product</button>
+  <body class="bg-light d-flex">
+    <aside
+      class="sidebar align-items-center position-relative py-4 d-flex flex-column gap-5 justify-content-between"
+    >
+      <div class="menu">
+        <i class="fa-solid fa-angle-right fs-5"></i>
       </div>
-      <table class="table table-striped">
-        <thead>
-          <tr id="headTable"></tr>
-        </thead>
-        <tbody id="bodyTable"></tbody>
-      </table>
-      <nav aria-label="Page navigation">
-        <ul class="pagination justify-content-end"></ul>
-      </nav>
-      <div class="d-flex gap-2 align-items-center justify-content-start">
-        <p class="m-0">rows</p>
-        <select class="form-select" aria-label="Default select">
-          <!-- <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option> -->
-        </select>
+      <div class="user px-4 d-flex gap-3 align-items-center">
+        <img class="user-image" src="./Rectangle 25 (1).jpg" alt="" />
+        <p class="user-name m-0 fs-5">userName</p>
+      </div>
+      <ul class="nav-links w-100">
+       <li class="nav-link">
+          <a
+            class="link-underline w-100 fs-6 p-3 d-flex align-items-center gap-4 link-underline-opacity-0 link"
+            href="#"
+          >
+            <i class="fa-solid fa-home"></i>
+            <span>home</span></a
+          >
+        </li>
+       <li class="nav-link">
+          <a
+            class="link-underline w-100 fs-6 p-3 d-flex align-items-center gap-4 link-underline-opacity-0 link"
+            href="#"
+          >
+            <i class="fa-solid fa-home"></i>
+            <span>home</span></a
+          >
+        </li>
+        <li class="nav-link">
+          <a
+            class="link-underline w-100 fs-6 p-3 d-flex align-items-center gap-4 link-underline-opacity-0 link"
+            href="#"
+          >
+            <i class="fa-solid fa-home"></i>
+            <span>home</span></a
+          >
+        </li>
+      </ul>
+      <div class="px-4">
+        <button class="btn btn-outline-danger w-100">logout</button>
+      </div>
+    </aside>
+    <main class="w-100">
+      <nav class="bg-info w-100 p-3">asdasda</nav>
+      <div class="container p-4">
+        <div class="d-flex justify-content-end mb-4">
+          <button class="btn btn-info">add product</button>
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr id="headTable"></tr>
+          </thead>
+          <tbody id="bodyTable"></tbody>
+        </table>
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-end"></ul>
+        </nav>
+        <div class="d-flex gap-2 align-items-center justify-content-start">
+          <p class="m-0">rows</p>
+          <select class="form-select" id="numRows" aria-label="Default select">
+            <!-- <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option> -->
+          </select>
+        </div>
       </div>
     </main>
     <!-- <script type="module" src="./script/test.js"></script> -->
     <!-- <script type="module" src="./script/index2.js"></script> -->
     <!-- <script type="module" src="./script/index.js"></script> -->
+    <div
+      class="modal fade"
+      id="deleteModal"
+      tabindex="-1"
+      aria-labelledby="deleteModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="deleteModalLabel">
+              delete product
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <form id="addProduct">
+            <div class="modal-body">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus itaque praesentium, aperiam voluptatem veniam
+                pariatur cumque omnis laborum, incidunt reprehenderit sapiente
+                nobis nihil magnam harum cupiditate dolores voluptate alias!
+                Nihil?
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="submit" class="btn btn-danger">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
     <script type="module" src="./script/home.js"></script>
   </body>
 </html>

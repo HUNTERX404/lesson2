@@ -1,5 +1,8 @@
-import { getProducts } from "./index.js";
+import { deleteProduct, getProducts } from "./index.js";
+// import * as Popper from "@popperjs/core";
+// import { Modal } from "../node_modules/bootstrap/dist/js/bootstrap.esm.js";
 // Nike, Adidas, Puma, Reebok, New Balance
+window.Popper = Popper;
 const params = new URLSearchParams(window.location.search);
 const pageSize = params.get("pageSize") ? parseInt(params.get("pageSize")) : 8;
 console.log("params:", params.get("page"));
@@ -67,15 +70,32 @@ function setTable(response) {
   });
   headTable.innerHTML += `<th scope="col">actions</th>`;
   const bodyTable = document.querySelector("#bodyTable");
-  response.data.forEach((element) => {
-    const item = `<tr>
+  let item = "";
+  response.data.forEach((element, index) => {
+    item += `<tr>
           <th scope="row">${element.brand}</th>
           <td>${element.size}</td>
           <td>${element.color}</td>
           <td>${element.price} $</td>
           <td>${element.release_date}</td>
-           <td>${1}</td>
+           <td>${element.id}</td>
+           <td><i id="delete-${element.id}" class="fa-solid fa-trash text-danger"></i></td>
         </tr>`;
-    bodyTable.innerHTML += item;
   });
+  bodyTable.innerHTML += item;
+  // Attach event listeners after the rows have been added to the DOM
+  response.data.forEach((element) => {
+    const click = document.querySelector(`#delete-${element.id}`);
+    click.addEventListener("click", async function () {
+      console.log(`delete-${element.id}`);
+      await deleteProduct(element.id);
+      console.log('done');
+      // test(element.id); // Call the test function with the correct id
+    });
+  });
+}
+
+function test() {
+  // modalDelete.show();
+  console.log("test");
 }

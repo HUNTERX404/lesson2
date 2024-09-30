@@ -1,0 +1,51 @@
+body {
+  min-height: 100dvh;
+}
+a {
+  color: inherit;
+}
+.sidebar {
+  background: rgba(0, 0, 255, 0.324);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  .user {
+    .user-image {
+      width: 50px;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    .user-name {
+    }
+  }
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    .nav-link {
+      &:hover {
+        background: white;
+        color: rgba(0, 0, 255, 0.324) !important;
+      }
+    }
+  }
+  .menu {
+    top: 20px;
+    background-color: white;
+    filter: drop-shadow(2px 0px 4px rgba(0, 0, 0, 0.248));
+    color: rgba(0, 0, 255, 0.324);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transform: translateX(50%);
+  }
+}

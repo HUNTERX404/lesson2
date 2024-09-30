@@ -1,704 +1,764 @@
 {
   "products": [
     {
-      "brand": "Reebok",
-      "size": "L",
-      "color": "Mauv",
-      "price": 147.42,
-      "release_date": "8/21/2021"
-    },
-    {
-      "brand": "New Balance",
-      "size": "XS",
-      "color": "Aquamarine",
-      "price": 29.36,
-      "release_date": "3/12/2020"
-    },
-    {
       "brand": "Puma",
       "size": "M",
       "color": "Indigo",
       "price": 120.52,
-      "release_date": "10/22/2017"
+      "release_date": "10/22/2017",
+      "id": "8c8d"
     },
     {
       "brand": "Reebok",
       "size": "2XL",
       "color": "Fuscia",
       "price": 168.95,
-      "release_date": "3/12/2020"
+      "release_date": "3/12/2020",
+      "id": "40d3"
     },
     {
       "brand": "Adidas",
       "size": "L",
       "color": "Indigo",
       "price": 19.06,
-      "release_date": "7/29/2022"
+      "release_date": "7/29/2022",
+      "id": "3b30"
     },
     {
       "brand": "New Balance",
       "size": "3XL",
       "color": "Teal",
       "price": 170.87,
-      "release_date": "5/8/2018"
+      "release_date": "5/8/2018",
+      "id": "ae71"
     },
     {
       "brand": "Puma",
       "size": "XS",
       "color": "Orange",
       "price": 194.21,
-      "release_date": "1/24/2018"
+      "release_date": "1/24/2018",
+      "id": "4d53"
     },
     {
       "brand": "Reebok",
       "size": "XL",
       "color": "Turquoise",
       "price": 189.02,
-      "release_date": "1/23/2020"
+      "release_date": "1/23/2020",
+      "id": "c66e"
     },
     {
       "brand": "Nike",
       "size": "L",
       "color": "Orange",
       "price": 11.93,
-      "release_date": "2/11/2015"
+      "release_date": "2/11/2015",
+      "id": "8d79"
     },
     {
       "brand": "Adidas",
       "size": "XS",
       "color": "Maroon",
       "price": 53.81,
-      "release_date": "6/22/2020"
+      "release_date": "6/22/2020",
+      "id": "d23f"
     },
     {
       "brand": "Adidas",
       "size": "XL",
       "color": "Indigo",
       "price": 75.09,
-      "release_date": "9/17/2021"
+      "release_date": "9/17/2021",
+      "id": "de59"
     },
     {
       "brand": "Puma",
       "size": "3XL",
       "color": "Orange",
       "price": 36.08,
-      "release_date": "7/29/2012"
+      "release_date": "7/29/2012",
+      "id": "68b2"
     },
     {
       "brand": "Puma",
       "size": "XL",
       "color": "Teal",
       "price": 128.99,
-      "release_date": "3/5/2019"
+      "release_date": "3/5/2019",
+      "id": "5c05"
     },
     {
       "brand": "Reebok",
       "size": "L",
       "color": "Turquoise",
       "price": 94.45,
-      "release_date": "5/19/2020"
+      "release_date": "5/19/2020",
+      "id": "0561"
     },
     {
       "brand": "Nike",
       "size": "3XL",
       "color": "Crimson",
       "price": 109.89,
-      "release_date": "11/7/2020"
+      "release_date": "11/7/2020",
+      "id": "d242"
     },
     {
       "brand": "Adidas",
       "size": "M",
       "color": "Pink",
       "price": 46.38,
-      "release_date": "11/6/2014"
+      "release_date": "11/6/2014",
+      "id": "48ba"
     },
     {
       "brand": "Adidas",
       "size": "M",
       "color": "Yellow",
       "price": 136.11,
-      "release_date": "12/9/2015"
+      "release_date": "12/9/2015",
+      "id": "8910"
     },
     {
       "brand": "Nike",
       "size": "S",
       "color": "Indigo",
       "price": 147.09,
-      "release_date": "4/12/2015"
+      "release_date": "4/12/2015",
+      "id": "795d"
     },
     {
       "brand": "Puma",
       "size": "L",
       "color": "Turquoise",
       "price": 150.37,
-      "release_date": "7/7/2019"
+      "release_date": "7/7/2019",
+      "id": "f779"
     },
     {
       "brand": "Nike",
       "size": "3XL",
       "color": "Maroon",
       "price": 166.87,
-      "release_date": "1/22/2021"
+      "release_date": "1/22/2021",
+      "id": "7d71"
     },
     {
       "brand": "New Balance",
       "size": "3XL",
       "color": "Pink",
       "price": 57.77,
-      "release_date": "5/23/2022"
+      "release_date": "5/23/2022",
+      "id": "0e83"
     },
     {
       "brand": "Nike",
       "size": "XL",
       "color": "Purple",
       "price": 71.08,
-      "release_date": "9/21/2014"
+      "release_date": "9/21/2014",
+      "id": "ea26"
     },
     {
       "brand": "Nike",
       "size": "XS",
       "color": "Green",
       "price": 104.37,
-      "release_date": "6/10/2013"
+      "release_date": "6/10/2013",
+      "id": "2db3"
     },
     {
       "brand": "New Balance",
       "size": "S",
       "color": "Yellow",
       "price": 23.4,
-      "release_date": "5/23/2013"
+      "release_date": "5/23/2013",
+      "id": "dbb2"
     },
     {
       "brand": "Adidas",
       "size": "L",
       "color": "Pink",
       "price": 98.75,
-      "release_date": "2/11/2017"
+      "release_date": "2/11/2017",
+      "id": "a269"
     },
     {
       "brand": "Nike",
       "size": "S",
       "color": "Purple",
       "price": 33.36,
-      "release_date": "11/30/2016"
+      "release_date": "11/30/2016",
+      "id": "2226"
     },
     {
       "brand": "New Balance",
       "size": "XS",
       "color": "Green",
       "price": 184.71,
-      "release_date": "7/10/2013"
+      "release_date": "7/10/2013",
+      "id": "69c8"
     },
     {
       "brand": "Reebok",
       "size": "XS",
       "color": "Teal",
       "price": 92.42,
-      "release_date": "5/13/2021"
+      "release_date": "5/13/2021",
+      "id": "239b"
     },
     {
       "brand": "Reebok",
       "size": "M",
       "color": "Crimson",
       "price": 12.14,
-      "release_date": "11/15/2018"
+      "release_date": "11/15/2018",
+      "id": "ce41"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Orange",
       "price": 66.05,
-      "release_date": "1/23/2015"
+      "release_date": "1/23/2015",
+      "id": "3d1e"
     },
     {
       "brand": "New Balance",
       "size": "L",
       "color": "Red",
       "price": 125.07,
-      "release_date": "7/8/2011"
+      "release_date": "7/8/2011",
+      "id": "3382"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Green",
       "price": 133.87,
-      "release_date": "7/11/2019"
+      "release_date": "7/11/2019",
+      "id": "44be"
     },
     {
       "brand": "Nike",
       "size": "XS",
       "color": "Purple",
       "price": 159.91,
-      "release_date": "11/17/2014"
+      "release_date": "11/17/2014",
+      "id": "97aa"
     },
     {
       "brand": "Adidas",
       "size": "S",
       "color": "Blue",
       "price": 177.83,
-      "release_date": "9/3/2022"
+      "release_date": "9/3/2022",
+      "id": "b8dd"
     },
     {
       "brand": "Nike",
       "size": "3XL",
       "color": "Yellow",
       "price": 158.63,
-      "release_date": "8/26/2015"
+      "release_date": "8/26/2015",
+      "id": "6b40"
     },
     {
       "brand": "Reebok",
       "size": "3XL",
       "color": "Red",
       "price": 65.62,
-      "release_date": "3/18/2010"
+      "release_date": "3/18/2010",
+      "id": "7a06"
     },
     {
       "brand": "Adidas",
       "size": "2XL",
       "color": "Pink",
       "price": 129.92,
-      "release_date": "2/7/2016"
+      "release_date": "2/7/2016",
+      "id": "3202"
     },
     {
       "brand": "Nike",
       "size": "L",
       "color": "Orange",
       "price": 87.11,
-      "release_date": "2/9/2010"
+      "release_date": "2/9/2010",
+      "id": "cffe"
     },
     {
       "brand": "Adidas",
       "size": "S",
       "color": "Indigo",
       "price": 133.42,
-      "release_date": "8/21/2019"
+      "release_date": "8/21/2019",
+      "id": "c5ad"
     },
     {
       "brand": "Puma",
       "size": "S",
       "color": "Green",
       "price": 18.68,
-      "release_date": "4/18/2020"
+      "release_date": "4/18/2020",
+      "id": "5969"
     },
     {
       "brand": "New Balance",
       "size": "XL",
       "color": "Teal",
       "price": 57.25,
-      "release_date": "10/24/2018"
+      "release_date": "10/24/2018",
+      "id": "a54a"
     },
     {
       "brand": "Nike",
       "size": "3XL",
       "color": "Green",
       "price": 25.59,
-      "release_date": "3/9/2011"
+      "release_date": "3/9/2011",
+      "id": "8501"
     },
     {
       "brand": "Puma",
       "size": "S",
       "color": "Mauv",
       "price": 140.66,
-      "release_date": "7/18/2015"
+      "release_date": "7/18/2015",
+      "id": "b579"
     },
     {
       "brand": "New Balance",
       "size": "2XL",
       "color": "Turquoise",
       "price": 185.8,
-      "release_date": "1/18/2013"
+      "release_date": "1/18/2013",
+      "id": "2b16"
     },
     {
       "brand": "New Balance",
       "size": "L",
       "color": "Blue",
       "price": 91.01,
-      "release_date": "8/28/2018"
+      "release_date": "8/28/2018",
+      "id": "e97a"
     },
     {
       "brand": "Nike",
       "size": "S",
       "color": "Teal",
       "price": 182.25,
-      "release_date": "1/21/2018"
+      "release_date": "1/21/2018",
+      "id": "e3f7"
     },
     {
       "brand": "Nike",
       "size": "3XL",
       "color": "Teal",
       "price": 101.24,
-      "release_date": "12/11/2012"
+      "release_date": "12/11/2012",
+      "id": "a354"
     },
     {
       "brand": "Reebok",
       "size": "2XL",
       "color": "Crimson",
-      "price": 194.0,
-      "release_date": "9/15/2016"
+      "price": 194,
+      "release_date": "9/15/2016",
+      "id": "0751"
     },
     {
       "brand": "Puma",
       "size": "3XL",
       "color": "Turquoise",
       "price": 119.15,
-      "release_date": "10/18/2019"
+      "release_date": "10/18/2019",
+      "id": "ed5c"
     },
     {
       "brand": "Puma",
       "size": "XS",
       "color": "Green",
       "price": 82.64,
-      "release_date": "5/13/2019"
+      "release_date": "5/13/2019",
+      "id": "6f2e"
     },
     {
       "brand": "Nike",
       "size": "XS",
       "color": "Purple",
       "price": 77.69,
-      "release_date": "6/21/2015"
+      "release_date": "6/21/2015",
+      "id": "2117"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Teal",
       "price": 156.13,
-      "release_date": "1/9/2010"
+      "release_date": "1/9/2010",
+      "id": "048e"
     },
     {
       "brand": "Adidas",
       "size": "XL",
       "color": "Fuscia",
       "price": 117.32,
-      "release_date": "8/13/2015"
+      "release_date": "8/13/2015",
+      "id": "8f4d"
     },
     {
       "brand": "Nike",
       "size": "XS",
       "color": "Red",
       "price": 40.01,
-      "release_date": "8/6/2022"
+      "release_date": "8/6/2022",
+      "id": "46a6"
     },
     {
       "brand": "Puma",
       "size": "2XL",
       "color": "Teal",
       "price": 172.95,
-      "release_date": "12/2/2012"
+      "release_date": "12/2/2012",
+      "id": "dfe1"
     },
     {
       "brand": "Puma",
       "size": "XL",
       "color": "Crimson",
       "price": 84.59,
-      "release_date": "5/11/2012"
+      "release_date": "5/11/2012",
+      "id": "10e6"
     },
     {
       "brand": "New Balance",
       "size": "XS",
       "color": "Blue",
       "price": 112.9,
-      "release_date": "5/13/2013"
+      "release_date": "5/13/2013",
+      "id": "a0d6"
     },
     {
       "brand": "Reebok",
       "size": "S",
       "color": "Turquoise",
       "price": 125.62,
-      "release_date": "4/11/2011"
+      "release_date": "4/11/2011",
+      "id": "a3a5"
     },
     {
       "brand": "New Balance",
       "size": "L",
       "color": "Fuscia",
       "price": 23.97,
-      "release_date": "8/26/2019"
+      "release_date": "8/26/2019",
+      "id": "7472"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Blue",
       "price": 40.77,
-      "release_date": "8/19/2012"
+      "release_date": "8/19/2012",
+      "id": "de18"
     },
     {
       "brand": "Reebok",
       "size": "XL",
       "color": "Crimson",
       "price": 73.05,
-      "release_date": "3/17/2017"
+      "release_date": "3/17/2017",
+      "id": "c65b"
     },
     {
       "brand": "Reebok",
       "size": "M",
       "color": "Maroon",
       "price": 30.77,
-      "release_date": "9/1/2021"
+      "release_date": "9/1/2021",
+      "id": "6804"
     },
     {
       "brand": "Puma",
       "size": "XL",
       "color": "Goldenrod",
       "price": 142.47,
-      "release_date": "11/8/2017"
+      "release_date": "11/8/2017",
+      "id": "184b"
     },
     {
       "brand": "Nike",
       "size": "L",
       "color": "Mauv",
       "price": 87.95,
-      "release_date": "2/2/2014"
+      "release_date": "2/2/2014",
+      "id": "3278"
     },
     {
       "brand": "Nike",
       "size": "XL",
       "color": "Puce",
       "price": 104.11,
-      "release_date": "11/17/2017"
+      "release_date": "11/17/2017",
+      "id": "0165"
     },
     {
       "brand": "Nike",
       "size": "2XL",
       "color": "Indigo",
       "price": 173.15,
-      "release_date": "1/5/2017"
+      "release_date": "1/5/2017",
+      "id": "b448"
     },
     {
       "brand": "Puma",
       "size": "L",
       "color": "Violet",
       "price": 23.06,
-      "release_date": "12/5/2017"
+      "release_date": "12/5/2017",
+      "id": "929b"
     },
     {
       "brand": "Reebok",
       "size": "S",
       "color": "Violet",
       "price": 142.02,
-      "release_date": "10/1/2014"
+      "release_date": "10/1/2014",
+      "id": "631d"
     },
     {
       "brand": "Puma",
       "size": "S",
       "color": "Turquoise",
       "price": 136.03,
-      "release_date": "7/17/2019"
+      "release_date": "7/17/2019",
+      "id": "069d"
     },
     {
       "brand": "Reebok",
       "size": "2XL",
       "color": "Green",
       "price": 161.34,
-      "release_date": "12/27/2016"
+      "release_date": "12/27/2016",
+      "id": "e770"
     },
     {
       "brand": "Adidas",
       "size": "XS",
       "color": "Yellow",
       "price": 145.59,
-      "release_date": "8/17/2013"
+      "release_date": "8/17/2013",
+      "id": "344d"
     },
     {
       "brand": "New Balance",
       "size": "M",
       "color": "Puce",
       "price": 180.2,
-      "release_date": "12/26/2019"
+      "release_date": "12/26/2019",
+      "id": "6b4c"
     },
     {
       "brand": "Nike",
       "size": "2XL",
       "color": "Crimson",
       "price": 121.57,
-      "release_date": "11/27/2016"
+      "release_date": "11/27/2016",
+      "id": "1aa1"
     },
     {
       "brand": "Nike",
       "size": "XS",
       "color": "Indigo",
       "price": 59.22,
-      "release_date": "2/19/2013"
+      "release_date": "2/19/2013",
+      "id": "bb95"
     },
     {
       "brand": "Adidas",
       "size": "2XL",
       "color": "Pink",
       "price": 80.66,
-      "release_date": "1/15/2016"
+      "release_date": "1/15/2016",
+      "id": "6f36"
     },
     {
       "brand": "Reebok",
       "size": "M",
       "color": "Mauv",
       "price": 164.9,
-      "release_date": "3/9/2010"
+      "release_date": "3/9/2010",
+      "id": "a311"
     },
     {
       "brand": "Adidas",
       "size": "L",
       "color": "Green",
       "price": 173.72,
-      "release_date": "12/15/2012"
+      "release_date": "12/15/2012",
+      "id": "dc3b"
     },
     {
       "brand": "Reebok",
       "size": "L",
       "color": "Blue",
       "price": 141.9,
-      "release_date": "10/30/2011"
+      "release_date": "10/30/2011",
+      "id": "682b"
     },
     {
       "brand": "Puma",
       "size": "S",
       "color": "Orange",
       "price": 47.37,
-      "release_date": "3/31/2010"
+      "release_date": "3/31/2010",
+      "id": "d81d"
     },
     {
       "brand": "New Balance",
       "size": "M",
       "color": "Turquoise",
       "price": 76.65,
-      "release_date": "6/14/2013"
+      "release_date": "6/14/2013",
+      "id": "c9c4"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Pink",
       "price": 158.02,
-      "release_date": "5/17/2021"
+      "release_date": "5/17/2021",
+      "id": "941b"
     },
     {
       "brand": "Nike",
       "size": "XS",
       "color": "Fuscia",
       "price": 137.02,
-      "release_date": "6/1/2022"
+      "release_date": "6/1/2022",
+      "id": "9619"
     },
     {
       "brand": "Adidas",
       "size": "S",
       "color": "Teal",
       "price": 173.62,
-      "release_date": "5/9/2011"
+      "release_date": "5/9/2011",
+      "id": "d2dc"
     },
     {
       "brand": "Nike",
       "size": "3XL",
       "color": "Mauv",
       "price": 178.61,
-      "release_date": "8/21/2011"
+      "release_date": "8/21/2011",
+      "id": "fc74"
     },
     {
       "brand": "Puma",
       "size": "S",
       "color": "Green",
       "price": 55.71,
-      "release_date": "9/1/2011"
+      "release_date": "9/1/2011",
+      "id": "6d02"
     },
     {
       "brand": "Adidas",
       "size": "M",
       "color": "Mauv",
       "price": 97.05,
-      "release_date": "12/3/2015"
+      "release_date": "12/3/2015",
+      "id": "9c5b"
     },
     {
       "brand": "Nike",
       "size": "2XL",
       "color": "Orange",
       "price": 76.08,
-      "release_date": "4/6/2014"
+      "release_date": "4/6/2014",
+      "id": "da3c"
     },
     {
       "brand": "Reebok",
       "size": "3XL",
       "color": "Orange",
       "price": 114.39,
-      "release_date": "7/2/2015"
+      "release_date": "7/2/2015",
+      "id": "361c"
     },
     {
       "brand": "Reebok",
       "size": "3XL",
       "color": "Fuscia",
       "price": 33.3,
-      "release_date": "5/9/2017"
+      "release_date": "5/9/2017",
+      "id": "c2e2"
     },
     {
       "brand": "Puma",
       "size": "M",
       "color": "Mauv",
       "price": 110.97,
-      "release_date": "12/4/2012"
-    },
-    {
-      "brand": "Reebok",
-      "size": "3XL",
-      "color": "Aquamarine",
-      "price": 147.59,
-      "release_date": "11/26/2022"
+      "release_date": "12/4/2012",
+      "id": "3b6f"
     },
     {
       "brand": "New Balance",
       "size": "M",
       "color": "Indigo",
       "price": 66.88,
-      "release_date": "4/2/2020"
+      "release_date": "4/2/2020",
+      "id": "d8ac"
     },
     {
       "brand": "Adidas",
       "size": "2XL",
       "color": "Violet",
       "price": 58.93,
-      "release_date": "5/27/2016"
+      "release_date": "5/27/2016",
+      "id": "8bd2"
     },
     {
       "brand": "New Balance",
       "size": "XL",
       "color": "Purple",
       "price": 110.77,
-      "release_date": "11/19/2017"
+      "release_date": "11/19/2017",
+      "id": "c0e4"
     },
     {
       "brand": "Adidas",
       "size": "M",
       "color": "Blue",
       "price": 135.67,
-      "release_date": "11/20/2018"
+      "release_date": "11/20/2018",
+      "id": "695d"
     },
     {
       "brand": "Puma",
       "size": "XS",
       "color": "Aquamarine",
       "price": 122.1,
-      "release_date": "8/30/2010"
+      "release_date": "8/30/2010",
+      "id": "4160"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Green",
       "price": 147.05,
-      "release_date": "8/22/2012"
+      "release_date": "8/22/2012",
+      "id": "f07a"
     },
     {
       "brand": "Nike",
       "size": "M",
       "color": "Yellow",
       "price": 68.49,
-      "release_date": "8/13/2017"
-    },
-    {
-      "brand": "Nike",
-      "size": "L",
-      "color": "Green",
-      "price": 42.48,
-      "release_date": "2/25/2013"
-    },
-    {
-      "brand": "Nike",
-      "size": "S",
-      "color": "Teal",
-      "price": 107.71,
-      "release_date": "5/11/2011"
+      "release_date": "8/13/2017",
+      "id": "1452"
     }
   ]
 }

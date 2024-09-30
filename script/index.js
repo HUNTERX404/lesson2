@@ -5,4 +5,19 @@ const getProducts = async (pageSize, pageNumber) => {
   ).then((res) => res.json());
   return response;
 };
-export { getProducts };
+const deleteProduct = async (id) => {
+  const response = await fetch(BaseURL + `products/${id}`, {
+    method: "DELETE",
+  });
+};
+document.querySelector(".sidebar .menu").addEventListener("click", () => {
+  
+  document.querySelector(".user .user-name").classList.toggle("d-none");
+  document.querySelectorAll(".nav-link .link span").forEach((item) => {
+    item.classList.toggle("d-none");
+  });
+  document.querySelectorAll(".nav-link .link").forEach((item) => {
+    item.classList.toggle("justify-content-center");
+  });
+});
+export { getProducts, deleteProduct };
